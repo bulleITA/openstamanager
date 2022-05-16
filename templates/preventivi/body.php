@@ -316,7 +316,7 @@ if (($options['pricing'] && !isset($options['hide_total'])) || $options['show_on
             <b>'.tr('Sconto', [], ['upper' => true]).':</b>
         </td>
 
-        <th colspan="'.($options['show_only_total'] ? (($has_images) ? 2 : 1) : (($has_images) ? 3 : 2)).'" class="text-right">
+        <th colspan="'.($options['show_only_total'] ? (($has_image) ? 2 : 1) : (($has_image) ? 3 : 2)).'" class="text-right">
             <b>'.moneyFormat($sconto, 2).'</b>
         </th>
     </tr>';
@@ -328,7 +328,7 @@ if (($options['pricing'] && !isset($options['hide_total'])) || $options['show_on
             <b>'.tr('Totale imponibile', [], ['upper' => true]).':</b>
         </td>
 
-        <th colspan="'.($options['show_only_total'] ? (($has_images) ? 2 : 1) : (($has_images) ? 3 : 2)).'" class="text-right">
+        <th colspan="'.($options['show_only_total'] ? (($has_image) ? 2 : 1) : (($has_image) ? 3 : 2)).'" class="text-right">
             <b>'.moneyFormat($totale_imponibile, 2).'</b>
         </th>
     </tr>';
@@ -341,7 +341,7 @@ if (($options['pricing'] && !isset($options['hide_total'])) || $options['show_on
             <b>'.tr('Totale IVA', [], ['upper' => true]).':</b>
         </td>
 
-        <th colspan="'.($options['show_only_total'] ? (($has_images) ? 2 : 1) : (($has_images) ? 3 : 2)).'" class="text-right">
+        <th colspan="'.($options['show_only_total'] ? (($has_image) ? 2 : 1) : (($has_image) ? 3 : 2)).'" class="text-right">
             <b>'.moneyFormat($totale_iva, 2).'</b>
         </th>
     </tr>';
@@ -352,7 +352,7 @@ if (($options['pricing'] && !isset($options['hide_total'])) || $options['show_on
     	<td colspan="'.($options['show_only_total'] ? 2 : 4).'" class="text-right border-top">
             <b>'.tr('Totale documento', [], ['upper' => true]).':</b>
     	</td>
-    	<th colspan="'.($options['show_only_total'] ? (($has_images) ? 2 : 1) : (($has_images) ? 3 : 2)).'" class="text-right">
+    	<th colspan="'.($options['show_only_total'] ? (($has_image) ? 2 : 1) : (($has_image) ? 3 : 2)).'" class="text-right">
     		<b>'.moneyFormat($totale, 2).'</b>
     	</th>
     </tr>';
@@ -364,7 +364,7 @@ if (($options['pricing'] && !isset($options['hide_total'])) || $options['show_on
             <td colspan="'.($options['show_only_total'] ? 2 : 4).'" class="text-right border-top">
                 <b>'.tr('Sconto in fattura', [], ['upper' => true]).':</b>
             </td>
-            <th colspan="'.($options['show_only_total'] ? (($has_images) ? 2 : 1) : (($has_images) ? 3 : 2)).'" class="text-right">
+            <th colspan="'.($options['show_only_total'] ? (($has_image) ? 2 : 1) : (($has_image) ? 3 : 2)).'" class="text-right">
                 <b>'.moneyFormat($sconto_finale, 2).'</b>
             </th>
         </tr>';
@@ -375,7 +375,7 @@ if (($options['pricing'] && !isset($options['hide_total'])) || $options['show_on
             <td colspan="'.($options['show_only_total'] ? 2 : 4).'" class="text-right border-top">
                 <b>'.tr('Netto a pagare', [], ['upper' => true]).':</b>
             </td>
-            <th colspan="'.($options['show_only_total'] ? (($has_images) ? 2 : 1) : (($has_images) ? 3 : 2)).'" class="text-right">
+            <th colspan="'.($options['show_only_total'] ? (($has_image) ? 2 : 1) : (($has_image) ? 3 : 2)).'" class="text-right">
                 <b>'.moneyFormat($netto_a_pagare, 2).'</b>
             </th>
         </tr>';
